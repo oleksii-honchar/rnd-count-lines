@@ -2,8 +2,8 @@ import { exec } from 'child_process';
 import fs from 'fs';
 import path from 'path';
 
-const INCLUDED_PATTERNS = ['.ts', '.js'];
-const EXCLUDED_DIRS = ['node_modules', 'dist', '.history'];
+const INCLUDED_PATTERNS = ['.ts'];
+const EXCLUDED_DIRS = ['node_modules', 'dist', '.history', 'coverage'];
 
 // Function to check if a file matches any inclusion pattern
 function matchesInclusionPatterns(filePath: string): boolean {

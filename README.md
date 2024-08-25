@@ -1,2 +1,7 @@
 # rnd-count-lines
-Count source code lines script
+
+Count `*.ts` source code lines script:
+
+```bash
+make count-lines /path/to/folder
+```
