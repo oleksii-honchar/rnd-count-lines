@@ -1,0 +1,27 @@
+{
+  "name": "count-lines",
+  "version": "0.0.0",
+  "description": "count-lines",
+  "homepage": "",
+  "bugs": {
+    "url": ""
+  },
+  "repository": "",
+  "license": "MIT",
+  "author": "Oleksii Honchar <tuiteraz@gmail.com>",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-strip-types ./src/count-lines.ts $1"
+  },
+  "devDependencies": {
+    "@types/node": "22.5.0",
+    "prettier": "3.3.3",
+    "prettier-plugin-organize-imports": "^4.0.0"
+  },
+  "packageManager": "pnpm@9.8.0",
+  "engines": {
+    "node": "^22"
+  }
+}
