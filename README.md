@@ -1,5 +1,15 @@
 # rnd-count-lines
 
+## How to start
+
+```bash
+nvm i 22.7 ## we need native TS support
+make install-tools
+pnpm i
+```
+
+## How to use
+
 Count `*.ts` source code lines script:
 
 ```bash
